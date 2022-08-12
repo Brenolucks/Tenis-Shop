@@ -83,7 +83,7 @@ class HomeBannerWidget extends StatelessWidget {
             alignment: Alignment.topRight,
             angle: -math.pi / 6,
             child: Image.asset(
-              'assets/nike_orange_shoes.png',
+              'assets/images/nike_orange_shoes.png',
               fit: BoxFit.contain,
               alignment: Alignment.topRight,
             ),

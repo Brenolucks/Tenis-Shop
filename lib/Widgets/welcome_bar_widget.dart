@@ -20,7 +20,7 @@ class WelcomeBarWidget extends StatelessWidget {
                     'Welcome back',
                     style: GoogleFonts.montserrat(
                       fontSize: 14,
-                      color: Colors.grey[200],
+                      color: Colors.grey,
                       textStyle: TextStyle(
                         decoration: TextDecoration.none,
                       ),

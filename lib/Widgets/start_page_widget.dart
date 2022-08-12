@@ -37,7 +37,7 @@ class _MyHomeWidgetState extends State<MyHomeWidget> {
             child: Transform.rotate(
               angle: math.pi / 12,
               child: Image.asset(
-                'assets/nike_orange_shoes.png',
+                'assets/images/nike_orange_shoes.png',
                 fit: BoxFit.fitHeight,
               ),
             ),
