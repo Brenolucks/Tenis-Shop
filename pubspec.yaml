@@ -62,6 +62,12 @@ flutter:
   assets:
     - assets/images/balenciaga_shoes.jpg
     - assets/images/nike_orange_shoes.png
+    - assets/images/nike_green_shoes.jpg
+    - assets/images/yeezy_boost_350.png
+    - assets/images/puma_rsx.png
+    - assets/images/jordan_chicago_one.png
+    - assets/images/asics_japans_white.png
+    - assets/images/adidas_forum_mid.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
