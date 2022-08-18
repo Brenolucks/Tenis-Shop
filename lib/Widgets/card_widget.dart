@@ -1,6 +1,9 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:math' as math;
+
+import 'package:tenis_shop/Widgets/shoes_page_widget.dart';
 
 class CardWidget extends StatelessWidget {
   final String categoryShoes;
@@ -49,10 +52,20 @@ class CardWidget extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
-            child: Image.asset(
-              imageSrc,
-              fit: BoxFit.contain,
-              width: 120,
+            child: GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (BuildContext context) {
+                    return ShowPageWidget();
+                  }),
+                );
+              },
+              child: Image.asset(
+                imageSrc,
+                fit: BoxFit.contain,
+                width: 120,
+              ),
             ),
           ),
           Row(
@@ -104,11 +117,10 @@ class CardWidget extends StatelessWidget {
                   ),
                 ),
                 child: Center(
-                  child: Icon(
-                    Icons.add,
-                    color: Colors.white,
-                    size: 25,
-                  ),
+                  child: IconButton(
+                      icon: Icon(Icons.add),
+                      color: Colors.white,
+                      onPressed: () {}),
                 ),
               ),
             ],

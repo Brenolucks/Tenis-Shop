@@ -8,6 +8,7 @@ import 'package:tenis_shop/Widgets/home_banner_widget.dart';
 import 'package:tenis_shop/Widgets/categories_widget.dart';
 import 'package:tenis_shop/Widgets/carousel_categories_widget.dart';
 import 'package:tenis_shop/Widgets/card_widget.dart';
+import 'package:tenis_shop/Widgets/bottom_navigation_bar_widget.dart';
 
 class HomePageWidget extends StatefulWidget {
   const HomePageWidget({Key? key}) : super(key: key);
@@ -48,6 +49,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 children: [
                   CardWidget(
                     categoryShoes: 'Unissex Shoes',
+                    imageSrc: 'assets/images/puma_rsx.png',
+                    colorOptionOne: Colors.yellowAccent,
+                    colorOptionTwo: Colors.red,
+                    colorOptionThree: Colors.lightGreenAccent,
+                    nameShoes: 'Puma RS-X  Toys',
+                    price: '\$530',
+                  ),
+                  CardWidget(
+                    categoryShoes: 'Unissex Shoes',
                     imageSrc: 'assets/images/balenciaga_shoes.jpg',
                     colorOptionOne: Colors.black,
                     colorOptionTwo: Colors.red,
@@ -80,7 +90,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     colorOptionTwo: Colors.black,
                     colorOptionThree: Colors.red,
                     nameShoes: 'Asics Japan S White',
-                    price: '\$300',
+                    price: '\$200',
                   ),
                   CardWidget(
                     categoryShoes: 'Men\'s Shoes',
@@ -91,18 +101,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     nameShoes: 'Adidas Forum Mid',
                     price: '\$400',
                   ),
-                  CardWidget(
-                    categoryShoes: 'Men\'s Shoes',
-                    imageSrc: 'assets/images/jordan_chicago_one.png',
-                    colorOptionOne: Colors.green,
-                    colorOptionTwo: Colors.black,
-                    colorOptionThree: Colors.red,
-                    nameShoes: 'Jordan Chicago 1 Retro High',
-                    price: '\$500',
-                  ),
                 ],
               ),
             ),
+            BottomNavigationBarWidget(),
           ],
         ),
       ),
