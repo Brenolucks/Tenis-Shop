@@ -4,7 +4,7 @@ Cloning UI project for dribble for my studies in flutter. I'm not using state ma
 
 ## My version
 
-This is my version at this moment and i changed somethings to make it a little more my "face". I tried to use StatefulWidget in categories carousel but i haved some problems with state manipulation.
+This is my version at this moment. I changed a few things to make it more to my taste. I tried to use StatefulWidget in categories carousel but i had some problems with state manipulation.
 
 ![image](https://user-images.githubusercontent.com/66502872/185826519-69e1afae-15df-4e24-8695-bbeb7ba4f8cb.png)
 
